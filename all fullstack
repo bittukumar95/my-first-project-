@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            comment hai only .body{
+                background-image: url('https://etimg.etb2bimg.com/photo/67115492.cms ' );
+                background-repeat: no-repeat;
+                min-height: 100vh;
+                background-position: center;
+                width: 1600p;
+                background-size:cover;
+                margin: 0;
+                padding: 10px;
+                font-family: sans-serif;
+                
+            }
+            h1
+            {
+                color:black;
+                
+                
+            
+            }
+            nav{
+                width: 100%;
+               font-size: 20px;
+               display: flex;
+               flex-wrap: wrap;
+               gap: 10px;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+            }  
+            a{
+                text-decoration: none;
+               color:white;
+                 background-color: rgba(0, 0, 0, .1);
+                 backdrop-filter: blur(10px);
+                 padding: 7px;
+               border-radius: 10px;
+                 border: 1px solid rgba(255, 255, 255, 0.2);
+              transition: all.1s;
+              transition-timing-function: calc();
+              margin-right:  10px;
+                  
+            }
+            a:hover{
+                color: brown;
+                background-color:black;
+            }
+            
+            .main{
+                text-align: center;
+               
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQopwcWPkc5FHJ3iz6bONHuv3t1NNRBaX0Lx3L1fmn4SbSkQN0yC9G4rS-GR9IN3nVQZl8&usqp=CAU );
+               background-size: cover;  
+               padding: 0;  
+            
+              min-height: 10vh;
+                   
+ 
+
+            }
+            .box{
+                background-color:blue;
+                
+               
+              
+            }
+            .second{
+                background-image: url('https://etimg.etb2bimg.com/photo/67115492.cms ' );
+                background-repeat: no-repeat;
+                min-height: 80vh;
+                background-position: center;
+                width: 1600px;
+                background-size:cover;
+                margin: 0;
+                padding: 10px;
+                font-family: sans-serif;
+              
+
+              animation-name: animate;
+              animation-duration: alternate-reverse;
+              animation-duration: 30s;
+              animation-fill-mode: forwards;
+              animation-iteration-count: infinite;
+              animation-play-state: running;
+              animation-timing-function:ease-in-out ;
+               animation: changeImage 60s linear infinite;
+               background-size: cover;
+
+            }
+           @keyframes changeImage { 
+            0% { 
+               background-image: url(https://etimg.etb2bimg.com/photo/67115492.cms );
+              
+            }
+            20% {
+                background-image:url(https://images.bhaskarassets.com/thumb/1200x900/web2images/521/2022/12/28/1_1672169008.jpg );
+               
+            }
+            40%{
+                bacground-image:url(https://pbs.twimg.com/media/E2zqh5nVIAUcgup.jpg );
+            }
+           60%{
+                background-image:url( https://pbs.twimg.com/media/E2zqh5nVIAUcgup.jpg);
+               
+            }
+            80%{
+                background-image:url(https://m.media-amazon.com/images/I/31qu4ixHZ3L._SY355_.jpg );
+            }
+            100%{
+                background-image:url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg );
+            }
+           }
+            .third{
+                min-height: 30vh;
+              margin: 0;
+                display: flex;
+                padding: 0;
+               margin-left: 3%;
+            }
+            .box1{
+                background-image: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30480.jpg?size=626&ext=jpg&ga=GA1.2.1695566005.1676462306&semt=robertav1_2_sidr );
+                min-height: 30vh;
+                padding: 0;
+                margin-left: 1%;
+                padding:4% ;
+                font-size: large;
+
+            }
+          
+            
+            .box2{
+                background-color: aqua;
+                min-height:30vh ;
+                margin-left:2%;
+                padding:1%;
+              
+
+            }
+            .box3{
+                background-image: url(https://img.freepik.com/premium-photo/blue-pastel-concrete-cement-wall-texture-background-design-art-work_38607-1044.jpg?size=626&ext=jpg&ga=GA1.2.1695566005.1676462306&semt=robertav1_2_sidr );
+                min-height: 30vh;
+                margin-left:2%;
+                padding: 4%;
+               
+            }
+           table, th,td{
+                border: 1px solid red;
+                border-collapse: collapse;
+                background-color:azure;
+                font-size: 25px;
+               text-align: center;
+               width: 1400px;
+              min-height: 70vh;
+               margin-left: 3%;
+                
+            }
+            th{
+                padding: 0%;
+                background-color: aqua;
+                
+            }
+            h2{
+                margin-left: 2%;
+                font-size: 40px;
+               color: black;
+            }
+          table tr :hover{
+            background-color: aqua;
+            color:red;
+           }
+           .box4{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            background-image: url(https://www.msetconf.org/wp-content/uploads/2018/10/Web-Page-Background-Color.jpg );
+            margin-left: 3%;
+            margin-right: 5%;
+           }
+           p{
+            font-size: 20px;
+            color: black;
+           }
+        
+
+        
+  
+          
+        </style>
+        <title>BEGUSARAI</title>
+    </head>
+    <body>
+         <div class="main">
+            <h1>District Website of begusarai</h1>
+          
+         </div>
+       <div class="box"> 
+        <nav>
+            <a href="introduction.html">Introduction</a>
+            <a href="Ramdharisinghdinkar.html"> Rast kavi</a>
+           <a href="touristplace.html">tourist place</a>
+           <a href="foodbegusarai.html"> Food in begusarai</a>
+           <a href="Economy.html"> Economy of Begusarai</a>
+           <a href="festival.html"> Festivals and Fairs</a>
+           <a href="language.html"> Langauage of Begusarai</a>
+           <a href="GD college.html"> G.D College</a>
+        </nav>
+       </div>
+       <div class="second">
+       </div>
+       <div class="third">
+        <div class="box1">
+            <h1>District At a Glance </h1>
+            <h3><a href="area.html"> Area:1918 sq km</a></h3>
+            <h3><a href="area.html">Population: 2,970,541 </a></h3>
+            <h3><a href="area.html">Literacy Rate: 59.13% </a></h3>
+            <h3><a href="block.html">Block: 18</a></h3>
+            <h3><a href="village.html">	Villages: 1229 </a></h3>
+            <h3><a href="collectrate.html">Municipality: 5 </a></h3>
+          
+        
+        </div>
+        <div class="box2">
+            <h1>District Magistrate </h1>
+           <img src="https://cdn.s3waas.gov.in/s3f4be00279ee2e0a53eafdaa94a151e2c/uploads/bfi_thumb/2022051273-popph82cjia1z92tx7q11vgvhz38cwh44l4tk2w05s.jpg ">
+          <h1> Shri Roshan Kushwaha, IAS</h1>
+          <p>Collectorate, Begusarai </p>
+          <p><b>Email</b> : dm-begusarai[dot]bih[at]nic[dot]in </p>
+          <p><b> Designation : District Magistrate-cum-Collector </p>
+          <p>Phone : 9473191412 </p>
+          <p>Fax No. : 230571 </p>
+        </div>
+        <div class="box3">
+            <h1>Superintendent of Police </h1>
+            <img src="https://cdn.s3waas.gov.in/s3f4be00279ee2e0a53eafdaa94a151e2c/uploads/bfi_thumb/2022021498-pkht7cqmp6p1oo49mbez89sgryh3b0dk0lel520jww.jpeg ">
+            <h1>Shri Yogendra Kumar, IPS </h1>
+            <p>Office of the Suprintendent Of Police, Begusarai </p>
+            <p><b>Email</b> : sp-begusarai-bih[at]nic[dot]in </p>
+            <p><b>Designation</b> Suprintendent Of Police </p>
+            <p><b>Phone</b> : 9431800011 </p>
+            <p><b>Fax No.</b> : 230539 </p>
+        </div>
+       </div>
+       <h2>Helpline </h2>
+      
+        <table>
+            <tr>
+              
+                <th>Sl. No. </th>
+                <th>Emergency Contact </th>
+                <th>Name </th>
+                <th>Std Code </th>
+                <th> Office Number</th>
+                <th>Residence </th>
+              
+            </tr>
+            <tr>
+                <td> 1</td>
+                <td>District Control Room </td>
+                <td>DM Confidential </td>
+                <td>6243 </td>
+                <td>222285 </td>
+                <td>230584, 230569 </td>
+            </tr>
+            <tr>
+                <td>2 </td>
+                <td>Police Control Room </td>
+                <td> </td>
+                <td>6243 </td>
+                <td>223015 </td>
+                <td>230519</td>
+            </tr>
+            <tr>
+            <td>3  </td>
+            <td> Fire Station </td>
+            <td>Haldhar Prasad Mandal </td>
+            <td>6243 </td>
+            <td>223133, 101 </td>
+            <td> </td>
+            </tr>
+            <tr>
+                <td>4 </td>
+                <td> Ambulance Service</td>
+                <td> </td>
+                <td> </td>
+                <td>102/108 </td>
+                <td> </td>
+                
+            </tr>
+            <tr>
+                <td>5 </td>
+                <td>Covid 19 Control Room </td>
+                <td> </td>
+                <td>6243 </td>
+                <td>222835 </td>
+                <td> </td>
+            </tr>
+      
+     <div class="box4">
+        <h1>Helpline Numbers </h1>
+        <p>Child Helpline - 1098 </p>
+        <p>Women Helpline - 1091/ 9771468005 Ms. Veena Kumari- Protection officer</p>
+        <p>Voter Helpline - 1950 </p>
+        <p>Covid 19 control room- 18003456604 (Tall free) and 06243 222835 </p>
+        
+     </div>
+        </table>
+    </body>
+</html>
